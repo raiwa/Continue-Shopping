@@ -1,8 +1,8 @@
-# Continue Shopping Phoenix Cart 2.1
+# Continue Shopping Phoenix Cart 2.4
 ---------------------------------
 
 Compatibility: Phoenix Cart 1.0.8.7+
-Tested with Phoenix 1.0.8.7
+Tested with Phoenix 1.0.8.14
 PHP 7.0-7.4
 
 

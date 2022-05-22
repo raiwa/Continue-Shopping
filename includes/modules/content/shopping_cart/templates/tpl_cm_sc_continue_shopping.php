@@ -6,10 +6,12 @@
 
 <?php
 /*
-  Continue Shopping 2.0
+  Continue Shopping 2.4
   by @raiwa
   info@oscaddons.com
   www.oscaddons.com
+  
+  updated for Phoenix Pro by @ecartz
 
   Copyright (c) 2021: Rainer Schmied - @raiwa
 

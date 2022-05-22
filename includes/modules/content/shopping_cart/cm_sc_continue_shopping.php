@@ -2,10 +2,12 @@
 /*
   $Id$ cm_sc_continue_shopping.php
 
-  Continue Shopping 2.3
+  Continue Shopping 2.4
   by @raiwa
   info@oscaddons.com
   www.oscaddons.com
+  
+  updated for Phoenix Pro by @ecartz
 
   Copyright (c) 2021: Rainer Schmied - @raiwa
 
@@ -19,7 +21,7 @@
 
   class cm_sc_continue_shopping extends abstract_executable_module {
 
-    const CURRENT_VERSION = '2.3';
+    const CURRENT_VERSION = '2.4';
     const CONFIG_KEY_BASE = 'MODULE_CONTENT_SC_CONTINUE_SHOPPING_';
 
     public function __construct() {
