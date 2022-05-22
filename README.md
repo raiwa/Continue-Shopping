@@ -1,4 +1,4 @@
-# Continue Shopping Phoenix Cart 2.4
+# Continue Shopping Phoenix Cart
 ---------------------------------
 
 Compatibility: Phoenix Cart 1.0.8.7+

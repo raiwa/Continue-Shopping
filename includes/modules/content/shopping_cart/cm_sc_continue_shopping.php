@@ -2,7 +2,7 @@
 /*
   $Id$ cm_sc_continue_shopping.php
 
-  Continue Shopping 2.4
+  Continue Shopping 1.0.8.7
   by @raiwa
   info@oscaddons.com
   www.oscaddons.com
@@ -21,7 +21,7 @@
 
   class cm_sc_continue_shopping extends abstract_executable_module {
 
-    const CURRENT_VERSION = '2.4';
+    const CURRENT_VERSION = '1.0.8.7';
     const CONFIG_KEY_BASE = 'MODULE_CONTENT_SC_CONTINUE_SHOPPING_';
 
     public function __construct() {

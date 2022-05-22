@@ -6,7 +6,7 @@
 
 <?php
 /*
-  Continue Shopping 2.4
+  Continue Shopping 1.0.8.7
   by @raiwa
   info@oscaddons.com
   www.oscaddons.com
