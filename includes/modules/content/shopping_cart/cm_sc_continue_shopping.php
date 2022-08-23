@@ -2,7 +2,7 @@
 /*
   $Id$ cm_sc_continue_shopping.php
 
-  Continue Shopping 1.0.8.7
+  Continue Shopping 1.0.8.7 - 2.4
   by @raiwa
   info@oscaddons.com
   www.oscaddons.com
@@ -21,7 +21,7 @@
 
   class cm_sc_continue_shopping extends abstract_executable_module {
 
-    const CURRENT_VERSION = '1.0.8.7';
+    const CURRENT_VERSION = '1.0.8.7 - 2.4';
     const CONFIG_KEY_BASE = 'MODULE_CONTENT_SC_CONTINUE_SHOPPING_';
 
     public function __construct() {
@@ -52,6 +52,7 @@
       if( isset($_SERVER['HTTP_REFERER']) && (strpos($_SERVER['HTTP_REFERER'], 'checkout' ) !== false) ) {
         return $link;
       } elseif ($back = $_SESSION['navigation']->path[count($_SESSION['navigation']->path) - 2] ?? false) {
+        unset($back['get']['action']);
         return $Linker->build($back['page'], $back['get'] ?? []);
       } else {
         return $link;
